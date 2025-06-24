@@ -1,3 +1,6 @@
-class AppConstants {
-  static const String openWeatherMapApiKey = '565be768071ad467fa0d5a08720bfe18'; // Ganti dengan API Key Anda
+extension StringExtension on String {
+  String get capitalizeFirstofEach {
+    if (isEmpty) return this;
+    return split(" ").map((str) => str.isNotEmpty ? str[0].toUpperCase() + str.substring(1).toLowerCase() : "").join(" ");
+  }
 }
