@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-
-
-
-
+import '../api/weather_api.dart';
+import '../models/weather_model.dart';
+import '../widgets/forecast_item.dart'; // Pastikan widget ini ada
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 
 class ForecastPage extends StatefulWidget {

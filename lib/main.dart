@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import './pages/forecast_page.dart';
+import './pages/home_page.dart';
+import './pages/settings_page.dart';
 
 void main() {
   runApp(const MyApp());
